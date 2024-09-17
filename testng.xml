@@ -1,0 +1,47 @@
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="theinternet.herokuapp.ABTesting"/>
+      <class name="theinternet.herokuapp.AddRemoveElements"/>
+      <class name="theinternet.herokuapp.BasicAuthTest"/>
+      <class name="theinternet.herokuapp.BrokenImageTest"/>
+      <class name="theinternet.herokuapp.ChallengingDomTest"/>
+      <class name="theinternet.herokuapp.CheckboxesTest"/>
+      <class name="theinternet.herokuapp.ContextMenuTest"/>
+      <class name="theinternet.herokuapp.DigestAuthTest"/>
+      <class name="theinternet.herokuapp.DisappearingElementsTest"/>
+      <class name="theinternet.herokuapp.DragAndDropTest"/>
+      <class name="theinternet.herokuapp.DropdownTest"/>
+      <class name="theinternet.herokuapp.DynamicContentTest"/>
+      <class name="theinternet.herokuapp.DynamicControlsTest"/>
+      <class name="theinternet.herokuapp.DynamicLoadingTest"/>
+      <class name="theinternet.herokuapp.EntryAdTest"/>
+      <class name="theinternet.herokuapp.ExitIntentTest"/>
+      <class name="theinternet.herokuapp.FileDownloadTest"/>
+      <class name="theinternet.herokuapp.FileUploadTest"/>
+      <class name="theinternet.herokuapp.FloatingMenuTest"/>
+      <class name="theinternet.herokuapp.ForgotPasswordTest"/>
+      <class name="theinternet.herokuapp.GeolocationTest"/>
+      <class name="theinternet.herokuapp.HoversTest"/>
+      <class name="theinternet.herokuapp.InfiniteScrollTest"/>
+      <class name="theinternet.herokuapp.InputsTest"/>
+      <class name="theinternet.herokuapp.JQueryUIMenusTest"/>
+      <class name="theinternet.herokuapp.JavaScriptAlertsTest"/>
+      <class name="theinternet.herokuapp.JavaScriptOnloadEventErrorTest"/>
+      <class name="theinternet.herokuapp.KeyPressesTest"/>
+      <class name="theinternet.herokuapp.LargeDeepDOMTest"/>
+      <class name="theinternet.herokuapp.MultipleWindowsTest"/>
+      <class name="theinternet.herokuapp.NestedFramesTest"/>
+      <class name="theinternet.herokuapp.NotificationMessagesTest"/>
+      <class name="theinternet.herokuapp.RedirectLinkTest"/>
+      <class name="theinternet.herokuapp.SecureFileDownloadTest"/>
+      <class name="theinternet.herokuapp.ShadowDOMTest"/>
+      <class name="theinternet.herokuapp.ShiftingContentTest"/>
+      <class name="theinternet.herokuapp.SlowResourcesTest"/>
+      <class name="theinternet.herokuapp.SortableDataTablesTest"/>
+      <class name="theinternet.herokuapp.StatusCodesTest"/>
+      <class name="theinternet.herokuapp.TyposTest"/>
+      <class name="theinternet.herokuapp.WYSIWYGEditorTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

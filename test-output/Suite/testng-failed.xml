@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="theinternet.herokuapp.EntryAdTest">
+        <methods>
+          <include name="testEntryAd"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.EntryAdTest -->
+      <class name="theinternet.herokuapp.ShadowDOMTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testShadowDOM"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.ShadowDOMTest -->
+      <class name="theinternet.herokuapp.KeyPressesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testKeyPresses"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.KeyPressesTest -->
+      <class name="theinternet.herokuapp.ExitIntentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testExitIntent"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.ExitIntentTest -->
+      <class name="theinternet.herokuapp.DynamicControlsTest">
+        <methods>
+          <include name="testDynamicControls"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.DynamicControlsTest -->
+      <class name="theinternet.herokuapp.BrokenImageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyImagesAreDisplayedCorrectly"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.BrokenImageTest -->
+      <class name="theinternet.herokuapp.DisappearingElementsTest">
+        <methods>
+          <include name="testElementDisappearance"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.DisappearingElementsTest -->
+      <class name="theinternet.herokuapp.TyposTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testTypos"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.TyposTest -->
+      <class name="theinternet.herokuapp.StatusCodesTest">
+        <methods>
+          <include name="testStatusCodes"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.StatusCodesTest -->
+      <class name="theinternet.herokuapp.JavaScriptOnloadEventErrorTest">
+        <methods>
+          <include name="testOnloadEventError"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.JavaScriptOnloadEventErrorTest -->
+      <class name="theinternet.herokuapp.NestedFramesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testNestedFrames"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.NestedFramesTest -->
+      <class name="theinternet.herokuapp.NotificationMessagesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testNotificationMessages"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.NotificationMessagesTest -->
+      <class name="theinternet.herokuapp.SecureFileDownloadTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testSecureFileDownload"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.SecureFileDownloadTest -->
+      <class name="theinternet.herokuapp.FileDownloadTest">
+        <methods>
+          <include name="testFileDownload"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.FileDownloadTest -->
+      <class name="theinternet.herokuapp.ChallengingDomTest">
+        <methods>
+          <include name="verifyButtonsPresenceAndFunctionality"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.ChallengingDomTest -->
+      <class name="theinternet.herokuapp.GeolocationTest">
+        <methods>
+          <include name="testGeolocation"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.GeolocationTest -->
+      <class name="theinternet.herokuapp.ABTesting">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyABTestHeader"/>
+          <include name="setup"/>
+          <include name="verifyABTestLink"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.ABTesting -->
+      <class name="theinternet.herokuapp.LargeDeepDOMTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testLargeDeepDOM"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.LargeDeepDOMTest -->
+      <class name="theinternet.herokuapp.RedirectLinkTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testRedirectLink"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.RedirectLinkTest -->
+      <class name="theinternet.herokuapp.SlowResourcesTest">
+        <methods>
+          <include name="testSlowResources"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.SlowResourcesTest -->
+      <class name="theinternet.herokuapp.BasicAuthTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyUnauthorizedAccessWithIncorrectCredentials"/>
+          <include name="tearDown"/>
+          <include name="testBasicAuthentication" invocation-numbers="1 2 3 4"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.BasicAuthTest -->
+      <class name="theinternet.herokuapp.FileUploadTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testFileUpload"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.FileUploadTest -->
+      <class name="theinternet.herokuapp.DynamicLoadingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testDynamicLoading"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.DynamicLoadingTest -->
+      <class name="theinternet.herokuapp.WYSIWYGEditorTest">
+        <methods>
+          <include name="testWYSIWYGEditor"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.WYSIWYGEditorTest -->
+      <class name="theinternet.herokuapp.ForgotPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testForgotPassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.ForgotPasswordTest -->
+      <class name="theinternet.herokuapp.CheckboxesTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testCheckboxSelection"/>
+        </methods>
+      </class> <!-- theinternet.herokuapp.CheckboxesTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
